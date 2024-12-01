@@ -53,7 +53,13 @@ int main() {
 }
 ```
 
-After compiling it with `aarch64-linux-gnu-gcc main.c -o mainc.aarch64`, we have an ARM executable. The `file` commands confirms that:
+After compiling it with
+
+```bash
+aarch64-linux-gnu-gcc main.c -o mainc.aarch64
+```
+
+we have an ARM executable. The `file` command confirms that:
 
 ```
 main.aarch64: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=6c176c663804f2481a7973a7a2fcdabe30bd3ac8, for GNU/Linux 3.7.0, not stripped
@@ -111,7 +117,13 @@ int main()
 
 Compiling this program using `aarch64-linux-gnu-g++` as we did before will fail, because `gcc` cannot find the SDL2 include anywhere in the default configuration paths.
 
-We need to install the ARM64 version of SDL2 we can link our program against: `apt install libsdl2-dev:arm64 --no-install-recommends -y`. To compile our program, we need to find both the header `SDL2.h` and the shared library file `libSDL2.so`. Where did Debian install them? You can find out with the command `dpkg -L libsdl2-dev:arm64`:
+We need to install the ARM64 version of SDL2 we can link our program against:
+
+```bash
+apt install libsdl2-dev:arm64 --no-install-recommends -y
+```
+
+To compile our program, we need to find both the header `SDL2.h` and the shared library file `libSDL2.so`. Where did Debian install them? You can find out with the command `dpkg -L libsdl2-dev:arm64`:
 
 ```
 [...]
