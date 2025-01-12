@@ -1,4 +1,4 @@
 baseURL = 'https://lgt2x.github.io/'
 languageCode = 'en-us'
-title = 'Louis blog'
+title = "Louis' archive"
 theme = 'custom'

@@ -61,7 +61,7 @@ aarch64-linux-gnu-gcc main.c -o mainc.aarch64
 
 we have an ARM executable. The `file` command confirms that:
 
-```
+```bash
 main.aarch64: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=6c176c663804f2481a7973a7a2fcdabe30bd3ac8, for GNU/Linux 3.7.0, not stripped
 ```
 
@@ -125,7 +125,7 @@ apt install libsdl2-dev:arm64 --no-install-recommends -y
 
 To compile our program, we need to find both the header `SDL2.h` and the shared library file `libSDL2.so`. Where did Debian install them? You can find out with the command `dpkg -L libsdl2-dev:arm64`:
 
-```
+```bash
 [...]
 /usr/include/SDL2/SDL.h
 [...]
