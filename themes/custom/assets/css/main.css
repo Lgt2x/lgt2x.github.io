@@ -82,9 +82,6 @@ time {
 
 pre {
   padding: 10px;
-}
-
-code span span {
   overflow: scroll;
 }
 
