@@ -7,17 +7,13 @@ name = 'Home'
 pageRef = '/'
 weight = 10
 
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 20
 
 [[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
+name = 'About'
+pageRef = '/about'
 weight = 30
 
 [module]
   [module.hugoVersion]
     extended = false
-    min = "0.116.0"
+    min = "0.140.0"
