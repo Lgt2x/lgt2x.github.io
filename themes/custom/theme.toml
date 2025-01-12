@@ -1,0 +1,7 @@
+name = 'Louis blog theme'
+license = 'MIT'
+licenselink = 'https://github.com/Lgt2x/lgt2x.github.io/LICENSE'
+
+[author]
+  name = 'Louis Gombert'
+  homepage = 'https://lgt2x.github.io/'

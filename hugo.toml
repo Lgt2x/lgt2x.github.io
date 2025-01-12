@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://lgt2x.github.io/'
 languageCode = 'en-us'
-title = 'Lgtx blog'
-theme = 'ananke'
+title = "Louis' archive"
+theme = 'custom'
