@@ -1,18 +1,26 @@
 +++
 date = '2025-04-16T23:33:13+01:00'
-draft = true
-title = 'One year of Descent 3 Open source'
+draft = false
+title = 'One Year of Descent 3 Open Source'
 +++
 
-One year ago, the engine source code of the 1999 6-axis shooter Descent 3 was released as Open Source software under the GPLv3 license. This post recounts the community developments that followed this release, where the game stands today, and where it is headed.
+One year ago, the engine source code of the 1999 6-axis shooter Descent 3 was released as Open Source software, under the GPLv3 license. This post recounts the community developments that followed this release, where the game stands today, and where it is headed.
 
 ## Early times
 
-When the news broke and spread across the web, a large attention was drawn to the project, who found a home on the Descent Developpers Discord. Kevin Bentley, original developper of Descent 3 and the one to release the game, spent time to solidify the community around a common fork and recruited a small team of volunteers to help merge Pull Requests (PR) coming in. 
+When the news broke and spread across the web, a large attention was drawn to the project, who found headquarters on the Descent Developpers Discord. Kevin Bentley, an original developper of Descent 3, and the one to release the game, spent time to solidify the community around a common fork and recruited a small team of volunteers to help merge Pull Requests (PR) coming in. 
 
-Quickly, people got the game building on Windows, then Mac and Linux. A CI pipeline was set up to keep the game in a clean building state across PRs. The first days were pure chaos. In a week, about a hundred PRs got merged, mostly build, CI, documentation and code style fixes. It was relentless for maintainers of the project (which I was part of), and 
+Quickly, people got the game building on Windows, then Mac and Linux. A CI pipeline was set up to keep the game in a clean building state across PRs. The first days were pure chaos. In a week, about a hundred PRs were submitted, mostly build, CI, documentation and code style fixes. It was relentless for maintainers of the project (which I was part of)
+
+## Towards a first release
 
 
+
+## Piccu Engine
+
+While a large part of the community was busy slowly discovering the newly released code, veteran Descent hacker InsanityBringer went on to build their own fork which would
+
+While most of the community
 
 ## Ports, ports ports
 
@@ -46,11 +54,16 @@ The original code contained quite a lot of platform-specific code, using SDL1.2 
 
 **Community buildup**: 
 
-**Legacy code**
+**Legacy code**: 
+
+## Where we stand now
+
 
 ## Looking forward
 
 While a lot of work has been done so far on Descent 3, there are still a lot left to do.
+
+**Improved controller support**
 
 **Level scripting**
 
@@ -64,6 +77,7 @@ While a lot of work has been done so far on Descent 3, there are still a lot lef
 
 **Distribution packaging**
 
+If you wish to
 ## Personal impressions
 
 For me, this was a first experience at Open Source project management at this scale. This is overall an exciting yet intimidating experience. Exciting because of all the activity and cool ideas around the project, but intimidating because of all the developpers way more experienced than me around it.
