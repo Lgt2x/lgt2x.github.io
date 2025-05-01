@@ -38,7 +38,7 @@ Improving and maintaining this new code, and managing the flow of incoming contr
 
 **Assets packaging**: As only the source code for Descent 3 was released under an open-source license, assets are still proprietary. Players need to either get the game from an online shop (Steam, GoG) or install it from a CD and patch it to the 1.4 patch to get game assets. Not packaging the game with assets means that open-source ports need to implement a different logic to find them. Our first 1.5 release assumes that assets can be found in the same directory as the game executable, just like the commercial game does. This creates extra steps for the player, who needs to find the assets' location from his commercial D3 installation and copy them over to the port's directory. This operation may be unfriendly to some users, who'd hope for an easier setup. So, why not look for the base game installation to automatically find assets? Well, it's not that easy; Steam lets the user select individually each game's installation path and has no standard API to retrieve it. The same problem occurs for a CD installation as well. This is not a solved problem right now, but the current solution is looking at usual Steam/GoG installation paths for assets, as lets the user select the actual installation path from a GUI selection window otherwise.
 
-## Nonchallenges
+## Non challenges
 
 Some things could have been challenging if done differently, but luckily were not.
 
