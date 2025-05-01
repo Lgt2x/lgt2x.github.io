@@ -35,6 +35,10 @@ footer {
   padding: 10px;
 }
 
+p {
+  text-align: justify;
+}
+
 a {
   color: #222;
   text-decoration: none;
