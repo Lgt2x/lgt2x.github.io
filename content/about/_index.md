@@ -5,4 +5,6 @@ title = 'About'
 +++
 
 
-// TODO
+Software engineer from Lyon, France. Passionate about software craftsmanship and open source.
+
+Une ligne éditoriale ? Quelle ligne éditoriale ?
